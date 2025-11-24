@@ -1,18 +1,16 @@
-# App UI & environment
 streamlit
 python-dotenv
-
-# PDF parsing
 PyPDF2
-
-# Embeddings & vector DB
 sentence-transformers
-faiss-cpu
 
-# LangChain modular packages
+# LangChain Core & Main
 langchain
-langchain-core
 langchain-community
+langchain-core
 langchain-text-splitters
+
+# Integrations
 langchain-groq
 langchain-huggingface
+langchain-pinecone
+pinecone-client
